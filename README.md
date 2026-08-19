@@ -22,7 +22,7 @@ A web-based Ground Control Station (GCS) interface for monitoring and operating 
 ![Live Telemetry](screenshots/Telemetry.png)
 
 ### Mission Control
-![Mission Control](screenshots/Mission Control.png)
+![Mission Control](screenshots/Mission-Control.png)
 
 ### Telemetry Graphs
 ![Telemetry Graphs](screenshots/Graphs.png)
