@@ -1,0 +1,12 @@
+{
+  "framework": null,
+  "buildCommand": "PORT=19737 BASE_PATH=/ pnpm --filter @workspace/cansat-gcs run build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "artifacts/cansat-gcs/dist/public",
+  "rewrites": [
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

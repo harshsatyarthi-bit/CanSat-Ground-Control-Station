@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "CanSat GCS"
+version = "1.0.0"
+id = "artifacts/cansat-gcs"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19737
+
+[services.development]
+run = "pnpm --filter @workspace/cansat-gcs run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cansat-gcs", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/cansat-gcs/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19737"
+BASE_PATH = "/"
