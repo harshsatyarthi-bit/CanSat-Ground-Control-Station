@@ -28,7 +28,7 @@ A web-based Ground Control Station (GCS) interface for monitoring and operating 
 ![Telemetry Graphs](screenshots/Graphs.png)
 
 ### GPS Tracking
-![GPS Tracking](screenshots/Gps-Tracking.png)
+![GPS Tracking](screenshots/GPS-tracking.png)
 
 ### Orientation
 ![Orientation](screenshots/Orientation.png)
