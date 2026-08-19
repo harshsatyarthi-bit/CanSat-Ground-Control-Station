@@ -10,7 +10,7 @@ A web-based Ground Control Station (GCS) interface for monitoring and operating 
 
 ## 🚀 Live Demo
 
-**Live app:** [PASTE_MY_VERCEL_URL_HERE]
+**Live app:** https://cansat-ground-control-station.vercel.app/
 **Repository:** https://github.com/harshsatyarthi-bit/CanSat-Ground-Control-Station
 
 ## 📸 Screenshots
