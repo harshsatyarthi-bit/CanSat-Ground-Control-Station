@@ -16,31 +16,27 @@ A web-based Ground Control Station (GCS) interface for monitoring and operating 
 ## 📸 Screenshots
 
 ### Dashboard
-![CanSat GCS Dashboard](screenshots/dashboard.png)
+![CanSat GCS Dashboard](screenshots/Dashboard.png)
 
 ### Live Telemetry
-![Live Telemetry](screenshots/telemetry.png)
+![Live Telemetry](screenshots/Telemetry.png)
 
 ### Mission Control
-![Mission Control](screenshots/mission-control.png)
+![Mission Control](screenshots/Mission Control.png)
 
 ### Telemetry Graphs
-![Telemetry Graphs](screenshots/graphs.png)
+![Telemetry Graphs](screenshots/Graphs.png)
 
 ### GPS Tracking
-![GPS Tracking](screenshots/gps-tracking.png)
+![GPS Tracking](screenshots/Gps-Tracking.png)
 
 ### Orientation
-![Orientation](screenshots/orientation.png)
+![Orientation](screenshots/Orientation.png)
 
 ### Payload Camera
-![Payload Camera](screenshots/camera.png)
+![Payload Camera](screenshots/Camera.png)
 
-### Mission Logs
-![Mission Logs](screenshots/mission-logs.png)
 
-### Data Export
-![Data Export](screenshots/data-export.png)
 
 ## ✨ Features
 
