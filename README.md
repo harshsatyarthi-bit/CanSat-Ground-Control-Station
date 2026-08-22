@@ -95,7 +95,7 @@ The frontend talks to the API only for the Data Export feature, using relative `
 - Recharts (graphs)
 
 **Backend**
-- Express 5, Node.js
+- Node.js
 - Pino / pino-http (structured logging)
 
 **UI / Styling**
@@ -163,16 +163,6 @@ The production frontend build outputs to `artifacts/cansat-gcs/dist/public`.
 The frontend is deployed on **Vercel** as a static build, using the build command and output directory defined in `vercel.json`.
 
 The Express API server is **not** currently deployed alongside it. Because Data Export calls `/api/healthz`, `POST /api/export/prepare`, and `GET /api/export/file`, that feature will not work in production until the API server is hosted separately (or routed through the same domain via a rewrite/reverse proxy) and the frontend's `/api` requests are pointed at it.
-
-## 🔌 API
-
-A small Express API backs one feature — Data Export:
-
-- `GET /api/healthz` — health check
-- `POST /api/export/prepare` — accepts a CSV or JSON payload, stores it server-side under a short-lived, one-time token
-- `GET /api/export/file?token=<uuid>` — returns the prepared file as a real HTTP download (`Content-Disposition: attachment`)
-
-This two-step flow is used instead of a client-side blob URL specifically because blob downloads are sometimes flagged by endpoint-security software.
 
 ## 🔐 Environment Variables
 
